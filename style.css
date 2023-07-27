@@ -1,0 +1,60 @@
+/* Estilos para o site da Pizzaria */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://png.pngtree.com/background/20210710/original/pngtree-pizza-cartoon-yellow-poster-banner-background-picture-image_1022083.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #fcd52b; /* Cor de fundo "cor de pizza" */
+}
+
+header {
+    background-color: #ff6347; /* Vermelho-alaranjado para o cabeçalho */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+main h2 {
+    margin-top: 0;
+}
+
+#displayMenu {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Fundo branco translúcido para a lista de pizzas */
+}
+
+button {
+    margin-top: 10px;
+    background-color: #ff6347; /* Vermelho-alaranjado para os botões */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff4f27; /* Vermelho-alaranjado mais escuro ao passar o mouse */
+}
+/* Estilos para o site da Pizzaria */
+/* ... (mantenha o restante do código) */
+
+/* Estilos para o emoji de "certinho" selecionado */
+.emoji.selected {
+    color: gray;
+}
